@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <meta charset="utf-8"> <!--字元編碼(繁體中文)-->
+        <title>NUKIM活動行程報名表</title>
+    </head>
+
+    <body bgcolor="#779977">
+        <font color="#AA4477"><i>NUKIM</i></font>
+        <BR/>
+        <HR width="90%" color="#7799CC">
+        <font face="標楷體" size="6" color="#335566">高大資管迎新活動</font>
+
+        <h3>活動行程</h3>
+        <ul>
+            <li>活動時間:114年9月6日
+            <li>集合地點:高雄大學管理學院
+            <li>活動內容:校園巡禮、烤肉大會
+            <li>活動費用:200元(有繳系學會費者免費)
+        </ul>
+        
+            <font face="標楷體" size="3" color="#AA4477">
+            <table border="1" width="60%">
+                <tr><td><center>時間</center></td><td><center>活動內容</center></td><td><center>地點</center></td></tr>
+                <tr><td><center>15:30-16:00</center></td><td><center>集合</center></td><td><center>高大管院</center></td></tr>
+                <tr><td><center>16:00-17:00</center></td><td><center>校園巡禮</center></td><td><center>高大校園</center></td></tr>
+                <tr><td><center>17:00-19:00</center></td><td><center>烤肉大會</center></td><td><center>烤肉場</center></td></tr>
+                <tr><td><center>19:00-</center></td><td><center>賦歸</center></td><td><center>學生宿舍</center></td></tr>
+            </table>
+            </font>
+        
+
+
+        <h3>活動報名表單</h3>
+        <p>
+        填寫表單<br>
+
+        <form action="hk_0307.php" method="GET">
+            姓名:<input type="text" name="uName" required><br>
+            學號:<input type="text" name="uSid" required><br>
+
+            性別:
+            男<input type="radio" name="uGender" value="男">
+            女<input type="radio" name="uGender" value="女"><br>
+
+            Email:<input type="email" name="uEmail" required><br>
+
+            參加意願:
+            很感興趣<input type="radio" name="uWill" value="很感興趣">
+            沒興趣<input type="radio" name="uWill" value="沒興趣"><br>
+            
+            <input type="submit"><input type="reset">
+        </form>
+
+    </body>
+
+</html>
